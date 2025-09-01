@@ -6,6 +6,10 @@
     font-family: 'idroid';
     src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
 }
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     background-color: #90eeb9;
@@ -39,8 +43,14 @@ a {
 
 .imagem img {
     display: block;
-    width: auto;
+    width: 100%;
     position: relative;
+    margin: auto;
+}
+
+img.pequena {
+    max-width: 350px;
+    display: block;
     margin: auto;
 }
 
@@ -83,6 +93,7 @@ strong {
 h1 { 
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
+    padding-bottom: 10px;
 }
 
 #principal {
@@ -110,10 +121,10 @@ nav {
 nav > a {
     text-decoration: none;
     color: white;
+    padding: 4px 4px 0px 4px;
 }
 
 nav > a:hover {
-    padding: 4px 4px 0px 4px;
     border-radius: 2px;
     text-decoration: dotted;
     background-image: linear-gradient(to bottom, #2faa66b6, #8eeeb970);
@@ -124,6 +135,7 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     text-indent: 20px;
+    margin: 5px 5px;
 }
 
 #tabela {
@@ -146,6 +158,7 @@ p {
 #lista {
     list-style-position: inside;
     columns: 2;
+    padding: 10px;
 }
 
 #checklist {
@@ -153,7 +166,9 @@ p {
 }
 
 footer {
-    padding: 1px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-style: italic;
     color: white;
     background-color: #1c663e;
