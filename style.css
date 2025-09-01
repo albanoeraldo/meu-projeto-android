@@ -144,13 +144,12 @@ p {
 }
 
 #lista {
-    gap: 100px;
-    display: flex;
-    padding-left: 20px;
+    list-style-position: inside;
+    columns: 2;
 }
 
 #checklist {
-    list-style-type:"✔";
+    list-style-type:"✔   ";
 }
 
 #checklist > li {
