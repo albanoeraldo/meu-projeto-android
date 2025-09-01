@@ -152,9 +152,6 @@ p {
     list-style-type:"✔   ";
 }
 
-#checklist > li {
-    padding-left: 12px;
-}
 footer {
     padding: 1px;
     font-style: italic;
